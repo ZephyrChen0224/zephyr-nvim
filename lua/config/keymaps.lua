@@ -9,7 +9,7 @@ vim.opt.timeoutlen = 200
 -- 在插入模式下，使用 Ctrl + hjkl 移动光标
 vim.keymap.set("i", "<C-h>", "<Left>", { desc = "插入模式向左移动" })
 vim.keymap.set("i", "<C-j>", "<Down>", { desc = "插入模式向下移动" })
-vim.keymap.set("i", "<C-p>", "<Up>", { desc = "插入模式向上移动" })
+vim.keymap.set("i", "<C-k>", "<Up>", { desc = "插入模式向上移动" })
 vim.keymap.set("i", "<C-l>", "<Right>", { desc = "插入模式向右移动" })
 
 -- 在插入模式下，连按两个分号 ;; 自动跳到行尾并只保留一个分号
