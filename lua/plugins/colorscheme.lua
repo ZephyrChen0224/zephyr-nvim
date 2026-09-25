@@ -24,6 +24,9 @@ return {
       hl.CursorLineNr = { bg = "NONE", fg = "#7AA2F7", bold = true }
       -- 如果你希望 LazyVim 的通知窗口也不透明，可以加上这句：
       -- hl.NotifyBackground = { bg = "NONE" }
+      -- 使状态栏透明 (lualine 会使用这个高亮组)
+      hl.StatusLine = { bg = "NONE" }
+      hl.StatusLineNC = { bg = "NONE" }
     end,
   },
 }
